@@ -96,6 +96,9 @@ WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
 
 # Database
+
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
